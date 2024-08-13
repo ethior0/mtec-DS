@@ -15,8 +15,7 @@ public class Trapezio extends FormaGeometrica {
 
 	@Override
 	public void formula() {
-		System.out.printf("Fórmula do Trapézio: A = (%.2f + %.2f) * %.2f/2\n", this.getbm(), this.getBM(),
-				this.getAltura());
+		System.out.printf("Fórmula do Trapézio: A = (%.2f + %.2f) * %.2f/2\n", this.getbm(), this.getBM(), this.getAltura());
 	}
 
 	@Override
